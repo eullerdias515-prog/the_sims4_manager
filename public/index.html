@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>The Sims 4 Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>The Sims 4 Manager</h1>
+    <p>Sistema Integrador inspirado em The Sims 4</p>
+</header>
+
+<section class="formulario">
+    <h2>Cadastrar Sim</h2>
+
+    <form id="formSim">
+        <input type="text" id="nome" placeholder="Nome do Sim" required>
+        <input type="number" id="idade" placeholder="Idade" required>
+        <input type="text" id="carreira" placeholder="Carreira" required>
+        <input type="number" id="dinheiro" placeholder="Dinheiro" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</section>
+
+<section>
+    <h2>Lista de Sims</h2>
+    <div id="listaSims"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
